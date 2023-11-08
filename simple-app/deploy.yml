@@ -18,7 +18,7 @@ spec:
         app: front-end
     spec:
       containers:
-      - image: nginx:1.14.3
+      - image: nginx:1.14.1
         name: nginx
         ports:
         - containerPort: 80
